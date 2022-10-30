@@ -1,0 +1,15 @@
+﻿<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+@if (TempData["WrongPassword"] != null)
+{
+    <script type="text/javascript">
+        toastr.error('@TempData["WrongPassword"]', { timeOut: 5000 });
+    </script>
+}
+@if (TempData["UserNotFound"] != null)
+{
+    <script type="text/javascript">
+        toastr.error('@TempData["UserNotFound"]', { timeOut: 5000 });
+    </script>
+}

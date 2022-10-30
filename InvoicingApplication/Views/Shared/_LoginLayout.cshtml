@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - InvoicingApplication</title>
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/InvoicingApplication.styles.css" asp-append-version="true" />*@
+    <link rel="icon" type="image/png" href="~/LoginPage/images/icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="~/LoginPage/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/LoginPage/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="~/LoginPage/fonts/iconic/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" type="text/css" href="~/LoginPage/vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="~/LoginPage/vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="~/LoginPage/vendor/animsition/css/animsition.min.css">
+    <link rel="stylesheet" type="text/css" href="~/LoginPage/vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="~/LoginPage/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="~/LoginPage/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/LoginPage/css/main.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+</head>
+<body onload="window.history.forward();">
+    <div class="container">
+        <main role="main">
+            <partial name="_Notification" />
+            @RenderBody()
+        </main>
+    </div>
+    @*<script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>*@
+    @*<script src="~/js/site.js" asp-append-version="true"></script>*@
+    <script src="~/LoginPage/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="~/LoginPage/vendor/animsition/js/animsition.min.js"></script>
+    <script src="~/LoginPage/vendor/bootstrap/js/popper.js"></script>
+    <script src="~/LoginPage/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/LoginPage/vendor/select2/select2.min.js"></script>
+    <script src="~/LoginPage/vendor/daterangepicker/moment.min.js"></script>
+    <script src="~/LoginPage/vendor/daterangepicker/daterangepicker.js"></script>
+    <script src="~/LoginPage/vendor/countdowntime/countdowntime.js"></script>
+    <script src="~/LoginPage/js/main.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
