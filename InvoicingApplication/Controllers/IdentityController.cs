@@ -41,7 +41,8 @@ namespace InvoicingApplication.Controllers
                 {
                     if(userDetails.Password == retrievedFromUILoginPage.Password)
                     {
-                        return RedirectToAction("Index", "Dashboard");
+                        HttpContext.Session.SetString("Email", retrievedFromUILoginPage.Email.ToString());
+                        return RedirectToAction("DashboardPage", "Dashboard");
                     }
                     else
                     {

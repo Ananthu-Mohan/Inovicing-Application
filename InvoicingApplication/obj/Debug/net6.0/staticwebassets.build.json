@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1Bz3Xu+oh43l8Qdx70LE5VHGuN/tMeCdSRFqRn8+0Fk=",
+  "Hash": "tqzQTzNbDDxxL0BflQ7SmiAFTKr4TiaLAYQ6g+xQut4=",
   "Source": "InvoicingApplication",
   "BasePath": "_content/InvoicingApplication",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\ASP .netCore Web App\\InvoicingApplication\\InvoicingApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\InvoicingApplication.bundle.scp.css"
+    },
+    {
+      "Identity": "E:\\ASP .netCore Web App\\InvoicingApplication\\InvoicingApplication\\wwwroot\\css\\dashboardStyle.css",
+      "SourceId": "InvoicingApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ASP .netCore Web App\\InvoicingApplication\\InvoicingApplication\\wwwroot\\",
+      "BasePath": "_content/InvoicingApplication",
+      "RelativePath": "css/dashboardStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\dashboardStyle.css"
     },
     {
       "Identity": "E:\\ASP .netCore Web App\\InvoicingApplication\\InvoicingApplication\\wwwroot\\css\\site.css",

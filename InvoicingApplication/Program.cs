@@ -1,6 +1,8 @@
 using InvoicingApplication.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Session;
+using InvoicingApplication.Models;
+
 namespace InvoicingApplication
 {
     public class Program
@@ -19,6 +21,7 @@ namespace InvoicingApplication
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
             });
+            builder.Services.AddScoped<LoginModelClass>();
             builder.Services.AddDbContext<LoginDbContext>(options => options.UseSqlServer(
                 builder.Configuration.GetConnectionString("DefaultConnection")
                 ));
@@ -43,7 +46,7 @@ namespace InvoicingApplication
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Identity}/{action=LoginPage}/{id?}");
-
+                //pattern: "{controller=Dashboard}/{action=DashboardPage}/{id?}");
             app.Run();
         }
     }

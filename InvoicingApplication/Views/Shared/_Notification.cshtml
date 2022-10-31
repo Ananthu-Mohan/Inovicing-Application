@@ -13,3 +13,9 @@
         toastr.error('@TempData["UserNotFound"]', { timeOut: 5000 });
     </script>
 }
+@if (TempData["UpdateSucess"] != null)
+{
+    <script type="text/javascript">
+        toastr.warning('@TempData["UpdateSucess"]', { timeOut: 5000 });
+    </script>
+}
