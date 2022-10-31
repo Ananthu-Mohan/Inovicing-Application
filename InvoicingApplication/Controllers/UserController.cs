@@ -76,8 +76,8 @@ namespace InvoicingApplication.Controllers
             {
                 _db.Users.Update(UpdatedInfo);
                 _db.SaveChanges();
-                TempData["UpdateSucess"] = "Updated successfully , Please log out and log in for new changes to affect";
-                return RedirectToAction("DashboardPage","Dashboard");
+                TempData["UpdateSucess"] = "Updated successfully , Please re-login again";
+                return RedirectToAction("LoginPage", "Identity");
             }
             return View(UpdatedInfo);
         }

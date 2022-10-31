@@ -23,7 +23,6 @@
 <body onload="window.history.forward();">
     <div class="container">
         <main role="main">
-            <partial name="_Notification" />
             @RenderBody()
         </main>
     </div>
@@ -39,6 +38,8 @@
     <script src="~/LoginPage/vendor/daterangepicker/daterangepicker.js"></script>
     <script src="~/LoginPage/vendor/countdowntime/countdowntime.js"></script>
     <script src="~/LoginPage/js/main.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

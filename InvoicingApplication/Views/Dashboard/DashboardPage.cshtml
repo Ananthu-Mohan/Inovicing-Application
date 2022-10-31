@@ -8,5 +8,70 @@
 }
 <div class="row text-primary">
     <h2 class="text-primary text-muted">DashBoard For @ViewBag.userName</h2>
+    <hr />
+    @for (int i=0;i<13;i++)
+    {
+        <br />
+    }
+    <table >
+        <thead>
 
+        </thead>
+        <tbody>
+            <tr>
+                <td class="justify-content-center" align="center">
+                    <div class="card text-white bg-primary mb-5 " style="max-width: 25rem;height: 250px;">
+                        <div class="card-header fs-3">Users</div>
+                        <div class="card-body">
+                            <h4 class="card-title">Avaliable Options</h4>
+                            <ul>
+                                <a class=" card-text text-white fs-4 " style="text-decoration:none" href="#">Create new users </a>
+                            </ul>
+                            <ul>
+                                <a class=" card-text text-white fs-4" style="text-decoration:none"  href="#">Edit already existing users </a>
+                            </ul>
+                            <ul>
+                                <a class=" card-text text-white fs-4" style="text-decoration:none"  href="#">Delete an user </a>
+                            </ul>
+                        </div>
+                    </div>
+                   @* <button type="button" class="btn btn-outline-primary btn-lg" >Users</button>*@
+                </td>
+                <td class="justify-content-center" align="center">
+                    <div class="card text-white bg-primary mb-5 " style="max-width: 25rem;height: 250px;">
+                        <div class="card-header fs-3">Items</div>
+                        <div class="card-body">
+                            <h4 class="card-title">Avaliable Options</h4>
+                            <ul>
+                                <a class=" card-text text-white fs-4 " style="text-decoration:none" href="#">Create new Items </a>
+                            </ul>
+                            <ul>
+                                <a class=" card-text text-white fs-4" style="text-decoration:none" href="#">Edit already existing Items </a>
+                            </ul>
+                            <ul>
+                                <a class=" card-text text-white fs-4" style="text-decoration:none" href="#">Delete an Item </a>
+                            </ul>
+                        </div>
+                    </div>
+                </td>
+                <td align="center">
+                    <div class="card text-white bg-primary mb-5 " style="max-width: 25rem;height: 250px;">
+                        <div class="card-header fs-3">Previous Orders</div>
+                        <div class="card-body">
+                            <h4 class="card-title">Avaliable Options</h4>
+                            <ul>
+                                <a class=" card-text text-white fs-4 " style="text-decoration:none" href="#">View </a>
+                            </ul>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+            @*<button type="button" class="btn btn-outline-primary" style="width:250px;height:250px">Previous Orders</button>*@
 </div>
+@section Scripts{
+	@{
+    <partial name="_Notification" />
+	}
+}
