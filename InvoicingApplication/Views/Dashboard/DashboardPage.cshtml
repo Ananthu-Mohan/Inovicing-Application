@@ -13,56 +13,58 @@
     {
         <br />
     }
-    <table >
-        <thead>
+    @if (ViewBag.Email == "admin@admin.com")
+    {
+        <table >
+            <thead>
 
-        </thead>
-        <tbody>
-            <tr>
-                <td class="justify-content-center" align="center">
-                    <div class="card text-white bg-primary mb-5 " style="max-width: 25rem;height: 150px;">
-                        <a class="card-header text-white fs-3" style="text-decoration:none" asp-controller="User" asp-action="Index">Users</a>
-                        <div class="card-body">
-                            <h4 class="card-title">Avaliable Options</h4>
-                            <ul>
-                                <li>
-                                    <a class=" card-text text-white fs-4 " style="text-decoration:none" asp-controller="User" asp-action="CreateUser">Create new users </a>
-                                </li>
-                            </ul>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="justify-content-center" align="center">
+                        <div class="card text-white bg-primary mb-5 " style="max-width: 25rem;height: 150px;">
+                            <a class="card-header text-white fs-3" style="text-decoration:none" asp-controller="User" asp-action="Index">Users</a>
+                            <div class="card-body">
+                                <h4 class="card-title">Avaliable Options</h4>
+                                <ul>
+                                    <li>
+                                        <a class=" card-text text-white fs-4 " style="text-decoration:none" asp-controller="User" asp-action="CreateUser">Create new users </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                   @* <button type="button" class="btn btn-outline-primary btn-lg" >Users</button>*@
-                </td>
-                <td class="justify-content-center" align="center">
-                    <div class="card text-white bg-primary mb-5 " style="max-width: 25rem;height: 150px;">
-                        <div class="card-header fs-3">Items</div>
-                        <div class="card-body">
-                            <h4 class="card-title">Avaliable Options</h4>
-                            <ul>
-                                <li>
-                                    <a class=" card-text text-white fs-4 " style="text-decoration:none" href="#">Create new Items </a>
-                                </li>
-                            </ul>
+                       @* <button type="button" class="btn btn-outline-primary btn-lg" >Users</button>*@
+                    </td>
+                    <td class="justify-content-center" align="center">
+                        <div class="card text-white bg-primary mb-5 " style="max-width: 25rem;height: 150px;">
+                            <div class="card-header fs-3">Items</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Avaliable Options</h4>
+                                <ul>
+                                    <li>
+                                        <a class=" card-text text-white fs-4 " style="text-decoration:none" href="#">Create new Items </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </td>
-                <td class="justify-content-center" align="center">
-                    <div class="card text-white bg-primary mb-5 " style="max-width: 25rem;height: 150px;">
-                        <div class="card-header fs-3">Previous Orders</div>
-                        <div class="card-body">
-                            <h4 class="card-title">Avaliable Options</h4>
-                            <ul>
-                                <li>
-                                    <a class=" card-text text-white fs-4 " style="text-decoration:none" href="#">View </a>
-                                </li>
-                            </ul>
+                    </td>
+                    <td class="justify-content-center" align="center">
+                        <div class="card text-white bg-primary mb-5 " style="max-width: 25rem;height: 150px;">
+                            <div class="card-header fs-3">Previous Orders</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Avaliable Options</h4>
+                                <ul>
+                                    <li>
+                                        <a class=" card-text text-white fs-4 " style="text-decoration:none" href="#">View </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-            @*<button type="button" class="btn btn-outline-primary" style="width:250px;height:250px">Previous Orders</button>*@
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    }
 </div>
 @section Scripts{
 	@{
