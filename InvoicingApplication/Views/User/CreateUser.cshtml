@@ -2,42 +2,32 @@
 @{
     Layout = "_dashboardLayout";
 }
-@{
-    ViewData["Title"] = "Edit";
-}
-
-<h1 class ="text-primary text-muted">Edit User - @ViewBag.userName</h1>
-<hr />
 <form method="post">
     <div class="border p-5 mt-5">
         <div class="row pb-2">
+            <h2 class="text-primary">Create Category</h2>
+            <hr />
         </div>
+        @*<div asp-validation-summary="All" class="text-danger"></div>*@
         <div class="mb-3">
             <label asp-for="Email"></label>
-            @if (ViewBag.Email == "admin@admin.com")
-            {
-                <input asp-for="Email" class="form-control mt-2" readonly/>
-            }
-            else
-            {
-                <input asp-for="Email" class="form-control mt-2" />
-            }
+            <input asp-for="Email" class="form-control mt-2" />
             <span asp-validation-for="Email" class="text-danger"></span>
         </div>
         <div class="mb-3">
             <label asp-for="Password"></label>
-            <input asp-for="Password" class="form-control mt-2" type="password"/>
+            <input type="password"asp-for="Password" class="form-control mt-2" />
             <span asp-validation-for="Password" class="text-danger"></span>
         </div>
 
         <div class="row pt-4">
             <div class="col-6">
                 <button type="submit" class="btn btn-primary" style="width:150px">
-                    Update
+                    Create
                 </button>
             </div>
             <div class="col-6 text-end">
-                <a class="btn btn-primary" asp-controller="Dashboard" asp-action="DashboardPage" style="width:150px">
+                <a class="btn btn-primary" asp-controller="User" asp-action="Index" style="width:150px">
                     Back
                 </a>
             </div>
@@ -45,9 +35,3 @@
     </div>
 
 </form>
-@section Scripts{
-    @{
-        <partial name="_ValidationScriptsPartial" />
-        <partial name="_Notification" />
-    }
-}

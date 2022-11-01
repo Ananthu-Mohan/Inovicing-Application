@@ -1,0 +1,43 @@
+﻿@model LoginModelClass
+@{
+    Layout = "_dashboardLayout";
+}
+<form method="post">
+    <input asp-for="Id" hidden />
+    <div class="border p-5 mt-5">
+        <div class="row pb-2">
+            <h2 class="text-primary">Delete Category</h2>
+            <hr />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Email"></label>
+            <input asp-for="Email" class="form-control mt-2" disabled />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Password" hidden></label>
+            <input type="password" asp-for="Password" class="form-control mt-2" disabled hidden />
+            <span asp-validation-for="Password" class="text-danger" ></span>
+        </div>
+
+        <div class="row pt-4">
+            <div class="col-6">
+                <button type="submit" class="btn btn-danger" style="width:150px">
+                    Delete
+                </button>
+            </div>
+            <div class="col-6 text-end">
+                <a class="btn btn-primary" asp-controller="User" asp-action="Index" style="width:150px">
+                    Back
+                </a>
+            </div>
+        </div>
+    </div>
+
+</form>
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

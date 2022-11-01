@@ -14,14 +14,7 @@
         </div>
         <div class="mb-3">
             <label asp-for="Email"></label>
-            @if (ViewBag.Email == "admin@admin.com")
-            {
-                <input asp-for="Email" class="form-control mt-2" readonly/>
-            }
-            else
-            {
-                <input asp-for="Email" class="form-control mt-2" />
-            }
+            <input asp-for="Email" class="form-control mt-2" />
             <span asp-validation-for="Email" class="text-danger"></span>
         </div>
         <div class="mb-3">
@@ -37,7 +30,7 @@
                 </button>
             </div>
             <div class="col-6 text-end">
-                <a class="btn btn-primary" asp-controller="Dashboard" asp-action="DashboardPage" style="width:150px">
+                <a class="btn btn-primary" asp-controller="User" asp-action="Index" style="width:150px">
                     Back
                 </a>
             </div>

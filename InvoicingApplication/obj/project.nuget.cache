@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c/ofoaoNKQg3/ng1KyIFz6jChSd/Bk26bUFQE+AAUes2MR4D5ChprqRRWN1OiBtXdrVe/9874/qnWktwgP/l1g==",
+  "dgSpecHash": "mhfRsXHIaotK/9Wkg8EYfP4sZ0G+EkHPkOErgjLScvEp+oRL9TjmjGoqiYoWLJ9g2M4baAYYQlgcLGB9aAGO/A==",
   "success": true,
-  "projectFilePath": "E:\\ASP .netCore Web App\\InvoicingApplication\\InvoicingApplication\\InvoicingApplication.csproj",
+  "projectFilePath": "C:\\Users\\MY PC\\Desktop\\Inovicing-Application\\InvoicingApplication\\InvoicingApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MY PC\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\MY PC\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

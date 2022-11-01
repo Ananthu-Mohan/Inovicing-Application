@@ -11,7 +11,11 @@ namespace InvoicingApplication.Models
         public string Email { get; set; }
         [Required]
         public string Password { get; set; }
-
+        public LoginModelClass()
+        {
+            Email=String.Empty;
+            Password=String.Empty;
+        }
 
     }
 }

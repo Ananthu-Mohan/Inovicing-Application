@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ASP .netCore Web App\\InvoicingApplication\\InvoicingApplication\\InvoicingApplication.csproj": {}
+    "C:\\Users\\MY PC\\Desktop\\Inovicing-Application\\InvoicingApplication\\InvoicingApplication.csproj": {}
   },
   "projects": {
-    "E:\\ASP .netCore Web App\\InvoicingApplication\\InvoicingApplication\\InvoicingApplication.csproj": {
+    "C:\\Users\\MY PC\\Desktop\\Inovicing-Application\\InvoicingApplication\\InvoicingApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ASP .netCore Web App\\InvoicingApplication\\InvoicingApplication\\InvoicingApplication.csproj",
+        "projectUniqueName": "C:\\Users\\MY PC\\Desktop\\Inovicing-Application\\InvoicingApplication\\InvoicingApplication.csproj",
         "projectName": "InvoicingApplication",
-        "projectPath": "E:\\ASP .netCore Web App\\InvoicingApplication\\InvoicingApplication\\InvoicingApplication.csproj",
+        "projectPath": "C:\\Users\\MY PC\\Desktop\\Inovicing-Application\\InvoicingApplication\\InvoicingApplication.csproj",
         "packagesPath": "C:\\Users\\MY PC\\.nuget\\packages\\",
-        "outputPath": "E:\\ASP .netCore Web App\\InvoicingApplication\\InvoicingApplication\\obj\\",
+        "outputPath": "C:\\Users\\MY PC\\Desktop\\Inovicing-Application\\InvoicingApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MY PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

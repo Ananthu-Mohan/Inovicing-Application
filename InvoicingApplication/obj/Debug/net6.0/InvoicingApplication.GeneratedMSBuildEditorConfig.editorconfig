@@ -8,65 +8,85 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = InvoicingApplication
 build_property.RootNamespace = InvoicingApplication
-build_property.ProjectDir = E:\ASP .netCore Web App\InvoicingApplication\InvoicingApplication\
+build_property.ProjectDir = C:\Users\MY PC\Desktop\Inovicing-Application\InvoicingApplication\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\ASP .netCore Web App\InvoicingApplication\InvoicingApplication
+build_property.MSBuildProjectDirectory = C:\Users\MY PC\Desktop\Inovicing-Application\InvoicingApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/ASP .netCore Web App/InvoicingApplication/InvoicingApplication/Views/Dashboard/ContactUs.cshtml]
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/Dashboard/ContactUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXENvbnRhY3RVcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ASP .netCore Web App/InvoicingApplication/InvoicingApplication/Views/Dashboard/DashboardPage.cshtml]
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/Dashboard/DashboardPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERhc2hib2FyZFBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ASP .netCore Web App/InvoicingApplication/InvoicingApplication/Views/Home/Index.cshtml]
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ASP .netCore Web App/InvoicingApplication/InvoicingApplication/Views/Home/Privacy.cshtml]
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ASP .netCore Web App/InvoicingApplication/InvoicingApplication/Views/Identity/LoginPage.cshtml]
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/Identity/LoginPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcTG9naW5QYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ASP .netCore Web App/InvoicingApplication/InvoicingApplication/Views/Shared/Error.cshtml]
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ASP .netCore Web App/InvoicingApplication/InvoicingApplication/Views/Shared/_dashboardLayout.cshtml]
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/Shared/_dashboardLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9kYXNoYm9hcmRMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ASP .netCore Web App/InvoicingApplication/InvoicingApplication/Views/Shared/_LoginLayout.cshtml]
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/Shared/_LoginLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ASP .netCore Web App/InvoicingApplication/InvoicingApplication/Views/Shared/_Notification.cshtml]
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/Shared/_Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ASP .netCore Web App/InvoicingApplication/InvoicingApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/Shared/_UsersLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2Vyc0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ASP .netCore Web App/InvoicingApplication/InvoicingApplication/Views/User/Edit.cshtml]
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/User/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/User/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/User/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ASP .netCore Web App/InvoicingApplication/InvoicingApplication/Views/_ViewImports.cshtml]
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/User/EditOtherUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0T3RoZXJVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ASP .netCore Web App/InvoicingApplication/InvoicingApplication/Views/_ViewStart.cshtml]
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ASP .netCore Web App/InvoicingApplication/InvoicingApplication/Views/Shared/_Layout.cshtml]
+[C:/Users/MY PC/Desktop/Inovicing-Application/InvoicingApplication/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ew44z9k86c
